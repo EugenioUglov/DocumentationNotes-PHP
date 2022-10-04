@@ -1,0 +1,4 @@
+// Decimal number to hex.
+$color == 0 ? $color = '#000000' : $color = '#'.dechex($color);
+// Show color css.
+"<span style='width=30px; height=20px; background-color:".$color."'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (hex:".$color.")";

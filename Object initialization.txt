@@ -1,0 +1,10 @@
+// 1
+$object = (object) [
+    'first' => 1,
+    'second' => 2
+];
+
+// 2
+$object = new stdClass();
+$object->first = 1;
+$object->second = 2;
