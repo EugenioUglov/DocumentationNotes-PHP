@@ -6,3 +6,23 @@ function myTest() {
   global $x, $y;
   $y = $x + $y;
 }
+?>
+
+
+// 2 WAY
+
+<?php
+$x = 5;
+$y = 10;
+
+function myTest() {
+  $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+myTest();
+echo $y; // outputs 15
+?>
+
+
+Sources,
+https://www.w3schools.com/php/php_variables_scope.asp
