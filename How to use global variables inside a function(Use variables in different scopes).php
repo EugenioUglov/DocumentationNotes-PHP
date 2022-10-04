@@ -10,7 +10,6 @@ function myTest() {
 
 
 // 2 WAY
-
 <?php
 $x = 5;
 $y = 10;
@@ -21,6 +20,20 @@ function myTest() {
 
 myTest();
 echo $y; // outputs 15
+?>
+
+
+// Save variable state in function.
+<?php
+function myTest() {
+  static $x = 0;
+  echo $x;
+  $x++;
+}
+
+myTest(); // outputs 0
+myTest(); // outputs 1
+myTest(); // outputs 2
 ?>
 
 
