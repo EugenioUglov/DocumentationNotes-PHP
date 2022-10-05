@@ -1,0 +1,2 @@
+// Use function htmlspecialchars()
+Example: htmlspecialchars("<h2>Output with tags</h2>");
