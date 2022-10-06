@@ -1,0 +1,11 @@
+* Avoid $_SERVER["PHP_SELF"] Exploits.
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+* Database.
+** Password hash: $secure_pass = password_hash($pass, PASSWORD_BCRYPT);
+
+
+Sources:
+https://www.w3schools.com/php/php_form_validation.asp
+https://www.cloudways.com/blog/php-security/
+https://www.geeksforgeeks.org/how-to-secure-database-passwords-in-php/
