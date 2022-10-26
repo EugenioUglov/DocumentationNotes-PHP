@@ -1,0 +1,4 @@
+(1) https://www.w3schools.com/php/php_form_validation.asp
+(2) https://www.cloudways.com/blog/php-security/
+(3) https://www.geeksforgeeks.org/how-to-secure-database-passwords-in-php/
+(4) https://www.w3schools.com/php/php_mysql_prepared_statements.asp
