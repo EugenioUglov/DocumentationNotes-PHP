@@ -2,3 +2,5 @@
 (2) https://www.cloudways.com/blog/php-security/
 (3) https://www.geeksforgeeks.org/how-to-secure-database-passwords-in-php/
 (4) https://www.w3schools.com/php/php_mysql_prepared_statements.asp
+(5) Hash password
+    codegrepper.com/search.php?answer_removed=1&q=password_hash%20php%20w3schools
