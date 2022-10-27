@@ -1,4 +1,5 @@
-* Password hash: $secure_pass = password_hash($pass, PASSWORD_BCRYPT);
+* Password hash: $hashed_password = password_hash($pass, PASSWORD_BCRYPT);
+  To verify: $is_password_correct = password_verify($password_from_input_field, $hashed_password);
 * Prepared Statements in MySQLi (source: 4).
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
